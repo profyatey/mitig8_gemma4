@@ -1,6 +1,6 @@
 # 🌊 Mitig8
 
-Mitig8 lets citizens report drainage blockages and flood risk with a photo and their location. A Gemma 4 multimodal model analyzes the photo, assigns a risk level, and pushes the report to a live admin dashboard so response teams (like NADMO) can triage and act — before a blocked gutter becomes a flooded neighborhood.
+Mitig8 lets citizens report drainage blockages and flood risk with a photo and their location. A Gemma 4 multimodal model analyzes the photo, assigns a risk level, and pushes the report to a live admin dashboard so response teams (like NADMO) can triage and act before a blocked gutter becomes a flooded neighborhood.
 
 Designed for the African connectivity reality: it runs **fully offline, on-device**, with an optional cloud path for when connectivity is available.
 
@@ -8,11 +8,11 @@ Designed for the African connectivity reality: it runs **fully offline, on-devic
 
 ## The Problem
 
-Flooding in cities like Accra and Kumasi is frequently caused or worsened by blocked drains and gutters that go unreported until it's too late. Citizens see the warning signs — clogged gutters, choked culverts, standing water — long before a storm turns them into a flood. There's no fast, low-friction way for them to report it, and no automated way to triage which reports need urgent attention versus routine maintenance.
+Flooding in cities like Accra and Kumasi is frequently caused or worsened by blocked drains and gutters that go unreported until it's too late. Citizens see the warning signs clogged gutters, choked culverts, standing water  long before a storm turns them into a flood. There's no fast, low-friction way for them to report it, and no automated way to triage which reports need urgent attention versus routine maintenance.
 
 ## The Solution
 
-1. A citizen takes a photo of a drainage issue on their phone, adds a short description, and submits — geolocation is captured automatically.
+1. A citizen takes a photo of a drainage issue on their phone, adds a short description, and submits  geolocation is captured automatically.
 2. **Gemma 4 (multimodal)** analyzes the photo alongside the description and classifies flood risk as **Low / Medium / High**, with a short explanation grounded in what's visible in the image.
 3. The report — image, location, AI risk assessment — is saved and instantly available on an **admin dashboard** with a **Leaflet map**, pinned by location and color-coded by risk.
 4. Admins can review AI reasoning, triage reports, and track resolution — with a computed **District Safety Score** and an AI-generated operational summary of the current situation.
@@ -20,7 +20,7 @@ Flooding in cities like Accra and Kumasi is frequently caused or worsened by blo
 
 ## Architecture
 
-Mitig8 is **offline-first, cloud-optional** — it's designed around the constraint that connectivity in the field can't be assumed, and gracefully upgrades when it's available.
+Mitig8 is **offline-first, cloud-optional**  it's designed around the constraint that connectivity in the field can't be assumed, and gracefully upgrades when it's available.
 
 ```
 Citizen Webapp (photo + geolocation + description)
