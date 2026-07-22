@@ -14,8 +14,8 @@ Flooding in cities like Accra and Kumasi is frequently caused or worsened by blo
 
 1. A citizen takes a photo of a drainage issue on their phone, adds a short description, and submits  geolocation is captured automatically.
 2. **Gemma 4 (multimodal)** analyzes the photo alongside the description and classifies flood risk as **Low / Medium / High**, with a short explanation grounded in what's visible in the image.
-3. The report — image, location, AI risk assessment — is saved and instantly available on an **admin dashboard** with a **Leaflet map**, pinned by location and color-coded by risk.
-4. Admins can review AI reasoning, triage reports, and track resolution — with a computed **District Safety Score** and an AI-generated operational summary of the current situation.
+3. The report  image, location, AI risk assessment is saved and instantly available on an **admin dashboard** with a **Leaflet map**, pinned by location and color-coded by risk.
+4. Admins can review AI reasoning, triage reports, and track resolution  with a computed **District Safety Score** and an AI-generated operational summary of the current situation.
 
 
 ## Architecture
