@@ -99,6 +99,7 @@ Both AI paths are held to the same contract: a structured `{"risk_level": "High"
 ## Project Structure
 
 
+```
 mitig8/
 ├── index.php                  # Citizen report submission form
 ├── api/
@@ -114,8 +115,7 @@ mitig8/
 ├── uploads/                   # Citizen-submitted photos
 └── database/
     └── schema.sql
-
-
+```
 
 ## Built For
 
