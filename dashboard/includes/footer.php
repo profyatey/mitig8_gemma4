@@ -1,0 +1,1 @@
+<footer>©2026 AI Flood Monitoring</footer></body></html>
