@@ -114,7 +114,7 @@ mitig8/
 │   └── includes/              # Shared header/sidebar/footer
 ├── uploads/                   # Citizen-submitted photos
 └── database/
-    └── schema.sql
+    └── mitig8.sql
 ```
 
 ## Built For
