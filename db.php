@@ -1,5 +1,5 @@
 <?php
-
+// Sample Database To match Project Code
 $host = "localhost";
 $dbname = "flood_monitoring";
 $username = "root";
