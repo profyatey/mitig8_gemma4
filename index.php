@@ -439,7 +439,10 @@
         formData.append('description', document.getElementById('description').value);
         formData.append('latitude', document.getElementById('latitude').value);
         formData.append('longitude', document.getElementById('longitude').value);
-
+//==================================================================================================
+        // For Offline version via ollama change fetch('api/submit_report.php') To 
+        //'api/submit_report_ollama.php'
+//==================================================================================================
         fetch('api/submit_report.php', {
             method: 'POST',
             body: formData
